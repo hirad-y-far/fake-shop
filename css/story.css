@@ -1,0 +1,250 @@
+div.mainstory{
+    width: 100% ;
+    height: 175px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+div.mainstory>div.story{
+    width: 8%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+div.mainstory>div.story>div.image{
+    width: 80px;
+    height: 80px;
+}
+div.mainstory>div.story>div.image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    outline: 2px solid purple;
+    outline-offset: 2px;
+
+}
+
+div.mainstory>div.story>div.title{
+    width: 100%;
+    height: 50%;
+    font-family: iranYekan;
+    color: rgb(105, 101, 101);
+    text-align: center;
+    font-size: 13px;
+}
+
+div.mainstory2{
+    width: 100% ;
+    height: 140px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+div.mainstory2>div.story{
+    width: 8%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+div.mainstory2>div.story>div.image{
+    width: 50px;
+    height: 50px;
+}
+div.mainstory2>div.story>div.image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+div.mainstory2>div.story>div.title{
+    width: 100%;
+    height: 50%;
+    font-family: iranYekan;
+    color: rgb(105, 101, 101);
+    text-align: center;
+    font-size: 13px;
+}
+div.mataleb{
+    align-items: center;
+    color:rgb(84, 71, 71);
+    font-size: 12px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: iranYekan;
+    padding: 40px;
+}
+
+
+
+
+div.mainstory3{
+    width: 100% ;
+    height: 140px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+div.mainstory3>div.story3{
+    width: 12%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+div.mainstory3>div.story3>div.image{
+    width: 100px;
+    height: 100px;
+}
+div.mainstory3>div.story3>div.image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+div.mainstory3>div.story3>div.title{
+    width: 100%;
+    height: 50%;
+    font-family: iranYekan;
+    color: rgb(105, 101, 101);
+    text-align: center;
+    font-size: 13px;
+}
+
+
+div.brands{
+    width: 100% ;
+    height: 175px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+div.brands>div.brand{
+    width: 8%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+div.brands>div.brand>div.image{
+    width: 80px;
+    height: 80px;
+}
+div.brands>div.brand>div.image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    outline: 2px solid purple;
+    outline-offset: 2px;
+
+}
+
+
+div.taki{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+div.taki>div>img{
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    border-radius: 16px;
+    outline: none;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+div.foter{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    box-sizing: border-box;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+div.foter>img{
+    width: 100%;
+    position: relative;
+    object-fit: contain;
+    box-sizing: border-box;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+div.footfooter{
+    width: 100%;
+    height: 160px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+div.footfooter>div.footer{
+    background-color: #d5d6ee;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+div.footfooter>div.footer>div.image{
+    width: 180px;
+    height: 80px;
+}
+div.footfooter>div.footer>div.image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}

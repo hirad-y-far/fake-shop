@@ -1,0 +1,13 @@
+div.slider{
+    width: 100%;
+    height: 400px;
+}
+div.slider>div.img{
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    object-fit: cover;
+    align-items: center;
+
+}
